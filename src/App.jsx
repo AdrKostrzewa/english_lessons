@@ -23,7 +23,8 @@ function App() {
         Zamów kurs
       </button>
 
-      <p style={styles.counter}>🇬🇧Zamówiono już {count} kursów 🇬🇧</p>
+      <p style={styles.counter}>Zamówiono już {count} kursów</p>
+      <img src="https://flagcdn.com/w80/gb.png" alt="Flaga Wielkiej Brytanii" style={{ width: "40px", verticalAlign: "middle", marginRight: "10px" }}/>
     </div>
   );
 }
