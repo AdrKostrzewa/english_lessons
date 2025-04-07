@@ -31,7 +31,7 @@ const styles = {
     fontFamily: "sans-serif",
     textAlign: "center",
     padding: "2rem",
-    backgroundColor: "#1b1e21",
+    backgroundColor: "#182b3d",
     minHeight: "100vh",        // pełna wysokość
     width: "100vw",            // pełna szerokość
     boxSizing: "border-box",   // żeby padding nie powodował scrolla
