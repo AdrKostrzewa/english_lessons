@@ -14,14 +14,16 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <h1>Hej! Tutaj nauczysz się języka angielskiego!🚀</h1>
-      <p>To naprawdę prostę!</p>
+      <h1>Hej! Tutaj nauczysz się języka angielskiego! 🚀</h1>
+      <p>To naprawdę proste!</p>
 
       <p>Aktualna godzina: {time.toLocaleTimeString()}</p>
 
       <button style={styles.button} onClick={() => setCount(count + 1)}>
-        Kliknięcia: {count}
+        Zamów kurs
       </button>
+
+      <p style={styles.counter}>🇬🇧Zamówiono już {count} kursów 🇬🇧</p>
     </div>
   );
 }
@@ -32,9 +34,10 @@ const styles = {
     textAlign: "center",
     padding: "2rem",
     backgroundColor: "#182b3d",
-    minHeight: "100vh",        // pełna wysokość
-    width: "100vw",            // pełna szerokość
-    boxSizing: "border-box",   // żeby padding nie powodował scrolla
+    minHeight: "100vh",
+    width: "100vw",
+    boxSizing: "border-box",
+    color: "#fff", // tekst biały
   },
   button: {
     padding: "10px 20px",
@@ -45,6 +48,10 @@ const styles = {
     color: "#fff",
     border: "none",
     borderRadius: "5px",
+  },
+  counter: {
+    marginTop: "1rem",
+    fontSize: "1.2rem",
   },
 };
 
