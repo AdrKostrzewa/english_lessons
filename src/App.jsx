@@ -36,12 +36,16 @@ const styles = {
     padding: "2rem",
     backgroundColor: "#182b3d",
     minHeight: "100vh",
-    width: "100vw",
+    width: "100%",
     boxSizing: "border-box",
-    color: "#fff", // tekst biały
+    color: "#fff",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
   },
   button: {
-    padding: "10px 20px",
+    padding: "12px 24px",
     fontSize: "1rem",
     marginTop: "1rem",
     cursor: "pointer",
@@ -49,6 +53,7 @@ const styles = {
     color: "#fff",
     border: "none",
     borderRadius: "5px",
+    maxWidth: "90vw",         // dostosowuje przycisk na telefonach
   },
   counter: {
     marginTop: "1rem",
